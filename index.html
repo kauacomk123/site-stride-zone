@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STRIDE ZONE - Tênis para Campeões</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=account_circle" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo">STRIDE ZONE</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <button class="cart-btn">
+                <span class="material-symbols-outlined">
+                account_circle</span> Perfil</button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text fade-in-up">
+                <h1>STRIDE <span class="highlight">ZONE</span></h1>
+                <p>Tênis projetados para transformar cada passo, cada treino e cada competição na base de grandes conquistas. Para atletas que exigem o máximo de sua performance.</p>
+                <div class="cta-buttons">
+                    <a href="#produtos" class="btn-primary">Ver Produtos</a>
+                    <a href="#sobre" class="btn-secondary">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="hero-image fade-in-up">
+                <div class="shoe-3d-container">
+                    <model-viewer src="teste-3d/img/GLTF.glb" alt="Sapato 3D"
+                        camera-controls
+                        auto-rotate
+                        style="width: 600px; height: 500px;">
+                    </model-viewer>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="sobre">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Por que escolher a STRIDE ZONE?</h2>
+            <div class="features-grid">
+                <div class="feature-card animate-on-scroll">
+                    <h3>Performance Máxima</h3>
+                    <p>Tecnologia avançada para impulsionar seu desempenho em cada passo.</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <h3 >Qualidade Premium</h3>
+                    <p>Materiais de primeira linha para durabilidade e conforto incomparáveis.</p>
+                </div>
+                <div class="feature-card animate-on-scroll">
+                    <h3>Design Inovador</h3>
+                    <p>Estilo único que combina funcionalidade com visual impactante.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="produtos">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Nossos Produtos</h2>
+            <div class="products-grid">
+                <div class="product-card animate-on-scroll">
+                    <div class="product-image">
+                        <img src="img/tenis-esportivo.jpg" alt="Tênis esportivo amarelo com laranja" style="width: 430px;">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <h3>STRIDE PRO X1</h3>
+                            <p>Tenis Masculino Leve Esportivo Sapato Confortável Promoção</p>
+                        </div>
+                        <div class="product-price-off">R$ 355,90</div>
+                        <div class="product-price">R$ 299,90</div>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+
+                <div class="product-card animate-on-scroll">
+                    <div class="product-image">
+                        <img src="img/tenis-tryd.webp" alt="" style="width: 100%; height: 100%;">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <h3>STRIDE 5400 TRYD </h3>
+                            <p>Tênis Masculino Leve Esportivo Sapato Confortável Promoção</p>
+                        </div>
+                        <div class="product-price-off">R$ 590,90</div>
+                        <div class="product-price">R$ 449,90</div>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+
+                <div class="product-card animate-on-scroll">
+                    <div class="product-image">
+                        <img src="img/tenis-rosa.png" alt="" style="width: 430px;">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <h3>STRIDE POLO RUNNER</h3>
+                            <p>Sapato Feminino Tenis Polo Treino Ortopédico Esporão Facite</p>
+                        </div>
+                        <div class="product-price-off">R$ 490,90</div>
+                        <div class="product-price">R$ 349,90</div>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contato">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>STRIDE ZONE</h3>
+                    <p>Transformando cada passo em uma conquista. Para atletas que buscam excelência.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Atendimento</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Trocas e Devoluções</a></li>
+                        <li><a href="#">Frete Grátis</a></li>
+                        <li><a href="#">Suporte</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Conecte-se</h3>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">YouTube</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 STRIDE ZONE. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
